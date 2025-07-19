@@ -70,6 +70,21 @@ config = RunConfig(
     tools=["search_web", "math_solver"],
     verbose=True
 )
-"# Sync-Async-function" 
-"# Sync-Async-function" 
-"# Sync-Async-function" 
+import Asyncio 
+The asyncio module in Python is used for asynchronous programming, allowing you to write code that runs concurrently without 
+using threads or processes. It’s perfect for tasks that spend a lot of time waiting—like network requests, file I/O, or user input
+
+
+⚙️ What import asyncio Enables
+- Creating coroutines
+Functions defined with async def that can pause and resume using await.
+- Running event loops
+The core of asyncio—manages and schedules asynchronous tasks.
+- Concurrent task execution
+Use asyncio.gather() or asyncio.create_task() to run multiple coroutines at once.
+- Non-blocking I/O
+Ideal for socket programming, web scraping, or APIs where you don’t want to freeze the app while waiting.
+- Timers and delays
+Use await asyncio.sleep(seconds) to pause without blocking other tasks.
+
+"# hello" 
